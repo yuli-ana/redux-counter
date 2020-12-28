@@ -44,7 +44,7 @@ class Counter extends Component {
 
     return (
       <main className="Counter">
-        <p className="count">0</p>
+        <p className="count">{count}</p>
         <section className="controls">
           <button onClick={increment}>Increment</button>
           <button onClick={decrement}>Decrement</button>
